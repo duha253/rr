@@ -1,10 +1,10 @@
 body{
     padding: 0px;
     margin: 0px;
-    max-width: 500%;
+    /* max-width: 500%; */
     width: 100%;  
     font-family: sans-serif;
-    background-image: url(/img/2021-corvette-back.webp);
+    background-image: url(/img/bridge2.jpg);
     background-repeat: no-repeat;
   background-size: cover;
   
@@ -13,11 +13,14 @@ body{
 
  .container{
   
-      width: 50%;
+      width: 25%;
       margin:0 auto;
       overflow: hidden;
       padding: 3%;
-      background-color: rgba(0, 0, 0, 0.795);
+      background-color: #d4ac7ed7;
+      border-radius: 30px;
+      margin-top: 70px;
+      margin-bottom: 70px;
     }
 
 
@@ -26,8 +29,8 @@ body{
       text-align: center;
        text-decoration: underline;
         text-underline-position: under;
-        color: rgb(238, 235, 235);
-        letter-spacing: 4px;
+        color:#312c51;
+        letter-spacing: 1px;
         font-size: xx-large;
         font-family: 'Libre Baskerville', serif;
     margin-bottom: 20px;
@@ -43,22 +46,24 @@ body{
       margin-left: auto;
        margin-right: auto; 
        padding-bottom: 8%;
-       color: #fff;
-       letter-spacing:3px;
-       font-size: x-large;
+       color: #48426d;
+       letter-spacing:1px;
+       font-size: large;
        font-family:'Libre Baskerville', serif;
     
     }
 
-    .fas{
+    /*.fas{
     
-        font-size: xx-large;
+        font-size: large;
         padding: 2%;
         margin-top: 40px;
         margin-bottom: 1px;
-        margin-left: 20px;
+        margin-left: 1px;
         position: relative;
         color: rgb(71, 131, 133);
+        
+    
       }
       .contact-form i.fas:hover{
         cursor: pointer;
@@ -74,13 +79,17 @@ body{
       .form-info{
         font-size: 16px;
         font-style:'Lobster', cursive;
-        color: white;
-        letter-spacing: 4px;
-      }
+        color:  #48426d;
+        font-family: 'Josefin Sans', sans-serif;
+        letter-spacing: 0px;
+        margin-top: 30px;
+        margin-left: 30px;
+       
+      }*/
       input{
         padding: 8px;
         margin:13px;
-        width: 70%;
+        width: 80%;
         background-color:rgba(136, 133, 133, 0.5);
         color: white;
         border-radius: 20px;
@@ -93,13 +102,14 @@ body{
     
        textarea{
       padding: 20px;
-      margin: 10px;     
-      width: 70%;
+      margin: 12px;     
+      width: 75%;
       background-color:rgba(136, 133, 133, 0.5);
       color: white;
       border: none;
       outline:none;
       border-radius: 20px;
+      font-size: 15px;
      }
      textarea::placeholder{
        color: white;
@@ -108,21 +118,22 @@ body{
       
     
       .submit{
-      width: 40%;
-      border-radius: 30px;
+      width: 43%;
+      border-radius: 32px;
       background: none;
       padding: 4px;
        font-size: 13px;
-       font-family: Arial, Helvetica, sans-serif;
+       font-family:'Libre Baskerville', serif;
       font-weight: bold;
-      letter-spacing: 2px;
+      /* letter-spacing: 2px; */
       height: 33px;
       text-align: center;
       cursor: pointer;
       letter-spacing: 2px;
-      margin-left: 3%;
-      border:2px solid rgb(190, 190, 190);
-      color: rgb(190, 190, 190);
+      margin-left: 6%;
+      border:2px solid #312c51;
+      color: #312c51;
+      border-radius: 20px;
      }
 
      .submit:hover{
