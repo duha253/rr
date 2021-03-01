@@ -1,6 +1,8 @@
 body{
     padding: 0px;
-    margin: 0px;  
+    margin: 0px;
+    max-width: 500%;
+    width: 100%;  
     font-family: sans-serif;
     background-image: url(/img/2021-corvette-back.webp);
     background-repeat: no-repeat;
@@ -10,24 +12,16 @@ body{
 
 
  .container{
-     max-width: 500%;
-      width: 100%;
+  
+      width: 50%;
       margin:0 auto;
       overflow: hidden;
       padding: 3%;
+      background-color: rgba(0, 0, 0, 0.795);
     }
 
 
 
-    /*#contact-section{
-      background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.9)),url(../imgs/contact.jpg);
-      background-size: cover;
-      background-position: center;
-      height: 100%;
-      width: 100% ;
-      padding-bottom: 2%;
-    }
-*/
    .container h2{
       text-align: center;
        text-decoration: underline;
