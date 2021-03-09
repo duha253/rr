@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student</title>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/final.css">
+
+</head>
+<body>
+    <header>
+        <div>
+            <h2>HOME</h2>
+        </div>
+    </header>
+    <main>
+        <div id="contanier"></div>
+        <div id="unlist"></div>
+
+        <form id="newstudent">
+            <fieldset>
+                <legend>Add new student</legend>
+                <label for="studentName">student Name:</label>
+                <input type="text" id="studentName" name="studentName" required><br>
+
+                <label for="studentAge"> Age :</label>
+                <input type="number" id="studentAge" name="studentAge" required><br>
+                
+                <label for="studentNumber">student number :</label>
+                <input type="number" id="studentNumber" name="studentNumber" required><br>
+                <input type="submit" class="submit" value="Submit">
+            </fieldset>
+        </form>
+        <div id="list"></div>
+    </main>
+
+    <script src="/js/final.js"></script>
+</body>
+</html>

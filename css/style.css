@@ -1,0 +1,39 @@
+*
+{
+    box-sizing:border-box;
+}
+body{
+    height: 100%;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+header{
+    background-color: cadetblue;
+    height: 40px;
+}
+nav h2{
+    float: right;
+   
+    margin-top: 0px;
+}
+
+table{
+    width: 40%;
+
+    position: relative;
+
+}
+th td {
+    border: 2px solid rgb(31, 30, 30);
+    text-align: center;
+    color: rgb(52, 81, 248);
+}
+
+form{
+    width: 500px;
+    position: relative;
+    top:90px;
+    left:200px;
+
+}

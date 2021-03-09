@@ -1,0 +1,41 @@
+*
+{
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    margin: 0;
+}
+header{
+    height: 40px;
+    background-color: rgba(4, 136, 114, 0.897);
+
+}
+ header div h2{
+    float: right;
+    margin-top: 0;
+ }
+
+table{
+    width: 40%;
+    position: relative;
+   border: darkcyan;
+}
+
+    table, th, td {
+        border: 1px solid black;
+        width: 60%;
+        text-align: center;
+
+}
+
+form{
+    width: 500px;
+    position: relative;
+    top:70px;
+    left:100px;
+
+}
+.submit{
+    background-color:burlywood
+}
